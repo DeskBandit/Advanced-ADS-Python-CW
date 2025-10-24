@@ -1,7 +1,7 @@
 """Mainly to be used for testing APIs and the data structures introduced by task1"""
 
-from data_extract import read_csv_file
-from module_wrapper import build_index_from_rows
+from task1.data_extract import read_csv_file
+from task1.module_wrapper import build_index_from_rows
 from utils.data_api import (
     init_index, is_operational, get_station_id, get_station_name, activate_station, 
     deactivate_station, insert_station, is_station_active, delete_station_by_name, create_edge, get_edge_info,

@@ -30,10 +30,10 @@
 #                                                                       #
 #########################################################################
 
-from merge_sort import merge_sort
-from adjacency_list_graph import AdjacencyListGraph
-from disjoint_set_forest import make_set, find_set, union
-from min_heap_priority_queue import MinHeapPriorityQueue
+from clrsPython.Chapter2.merge_sort import merge_sort
+from clrsPython.UtilityFunctions.adjacency_list_graph import AdjacencyListGraph
+from clrsPython.Chapter19.disjoint_set_forest import make_set, find_set, union
+from clrsPython.Chapter6.min_heap_priority_queue import MinHeapPriorityQueue
 
 
 class KruskalEdge:
@@ -164,7 +164,7 @@ def print_undirected_edges(G, vertices):
 if __name__ == "__main__":
 
     import numpy as np
-    from generate_random_graph import generate_random_graph
+    from clrsPython.UtilityFunctions.generate_random_graph import generate_random_graph
 
     # Example from book.
     vertices = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i']

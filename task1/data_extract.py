@@ -26,7 +26,7 @@ def read_csv_file(debug=False):
         Otherwise it will just return the data in their coresponding lists - StationRows, EdgeRows.
     """
 
-    csv_path = os.path.join(os.path.dirname(__file__), '..', 'data', 'London_Underground_data.csv')
+    csv_path = '/Users/admin/Documents/GitHub/Advanced-ADS-Python-CW-version2/task2/Weighted_Test_Data.csv'
     try:
         with open(csv_path, 'r', encoding='utf-8', newline='') as f:
             reader = csv.reader(f)

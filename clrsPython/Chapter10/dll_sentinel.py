@@ -148,7 +148,7 @@ class DLLSentinel:
 # Testing
 if __name__ == "__main__":
 
-	from key_object import KeyObject
+	from clrsPython.UtilityFunctions.key_object import KeyObject
 
 	# Insert. 
 	linked_list1 = DLLSentinel()

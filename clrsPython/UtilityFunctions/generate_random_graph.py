@@ -31,8 +31,8 @@
 #########################################################################
 
 from random import randint, random
-from adjacency_list_graph import AdjacencyListGraph
-from adjacency_matrix_graph import AdjacencyMatrixGraph
+from clrsPython.UtilityFunctions.adjacency_list_graph import AdjacencyListGraph
+from clrsPython.UtilityFunctions.adjacency_matrix_graph import AdjacencyMatrixGraph
 
 
 def generate_random_graph(card_V, edge_probability, by_adjacency_lists=True,

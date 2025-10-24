@@ -30,7 +30,7 @@
 #                                                                       #
 #########################################################################
 
-from heap_priority_queue import HeapPriorityQueue
+from clrsPython.Chapter6.heap_priority_queue import HeapPriorityQueue
 
 
 class MinHeapPriorityQueue(HeapPriorityQueue):
@@ -79,7 +79,7 @@ class MinHeapPriorityQueue(HeapPriorityQueue):
 if __name__ == "__main__":
 
     import numpy as np
-    from key_object import KeyObject
+    from clrsPython.UtilityFunctions.key_object import KeyObject
 
     # Must use objects.
     list1 = ["AL", "AK", "AZ", "AR", "CA", "CO", "CT", "HI", "NH", "NY"]
