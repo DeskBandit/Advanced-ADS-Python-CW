@@ -28,7 +28,7 @@ def read_csv_file(debug=False):
 
     # Dynamically find the CSV file relative to project root (works on all machines)
     project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    csv_path = os.path.join(project_root, 'data', 'London_Underground_data.csv')
+    csv_path = os.path.join(project_root, 'task2', 'Weighted_test_data.csv')
     
     # Initialize lists to avoid UnboundLocalError
     StationRows = []
